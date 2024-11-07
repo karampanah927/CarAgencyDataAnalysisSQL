@@ -23,8 +23,8 @@ ad_id nvarchar(50),
 		)
 
 	insert into @t
-		select * from car_ads_backup3
-select * from @t
+		select * from car_ads_backup3 --where views is null or views = ''
+select * from @t where views is null or views = ''
 
 		update @t
 		set views=0
