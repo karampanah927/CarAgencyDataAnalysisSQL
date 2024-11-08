@@ -1,3 +1,4 @@
+--###################### Checking the Number of Null Values in Data Set###################################
 create procedure data_cleansing4
 as
 begin

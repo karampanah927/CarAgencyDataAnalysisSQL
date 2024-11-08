@@ -1,3 +1,4 @@
+--#################### Recalculating Stock Days#################################
 create procedure data_cleansing6
 as
 begin

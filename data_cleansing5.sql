@@ -1,22 +1,9 @@
 create procedure data_cleansing5
 as
 begin
-			select  
-				car_brand,
-				count(case when qc.price < (qc.Q1 - 5 * ic.IQR) then 1 end) as 'Lower Outlier',
-				count(case when qc.price > (qc.Q3 + 5 * ic.IQR) then 1 end) as 'Upper Outlier',
-				count(case when qc.price >= (qc.Q1 - 5 * ic.IQR) and qc.price <= (qc.Q3 + 5 * ic.IQR) then 1 end) as 'Not an Outlier'
-			from 
-				Quartiles_price_cte qc 
-			inner join
-				IQR_Calculation ic
-			on qc.ad_id = ic.ad_id
-			group by qc.car_brand
-			order by qc.car_brand
 
 
-
-			--02: finding the views outliers
+			--Finding Views outliers
 			-- Step 1: Calculate Q1, Q3, and IQR for the price
 			with Quartiles_views_cte as (
 				select

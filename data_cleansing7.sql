@@ -1,3 +1,4 @@
+
 create procedure data_cleansing7
 as
 begin
@@ -31,7 +32,7 @@ group by car_brand
 
 
 
---step 6: setting the brand_category to Not Assigned for null brand_categories
+--setting the brand_category to Not Assigned for null brand_categories
 
 update car_ads
 set brand_category = 'Not Assigned'
