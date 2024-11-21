@@ -1,0 +1,11 @@
+Dataware : Star
+	1- DimAd()
+	2- Dimdate
+	3- DimGeography
+	4-DimBrand
+	5- FactMarketing
+	
+	declare @d date='2024-11-12'
+	select FORMAT(@d,'yyyyMMdd')
+
+	update dimdate set datekey=FORMAT(fulldate,'yyyyMMdd')
