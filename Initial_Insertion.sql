@@ -1,4 +1,9 @@
 -- Initial Data Insertion
+
+exec maindatacleansing;
+print 'maindatacleansing is executed';
+
+go
 insert into DimCar (car_brand ,
 					PriceRange,
 					car_status,

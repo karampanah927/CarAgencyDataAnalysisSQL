@@ -60,7 +60,5 @@ print 'data_cleansing21 is executed';
 exec data_cleansing22;
 print 'data_cleansing22 is executed';
 
-exec usp_insertdata;
-print 'usp_insertdata is executed'
 
 end

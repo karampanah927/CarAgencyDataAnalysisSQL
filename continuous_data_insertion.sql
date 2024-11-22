@@ -95,3 +95,10 @@ begin
     join dimdate ddd on ca.deleted_date = ddd.dt;
 
 end;
+
+go 
+exec maindatacleansing;
+print 'maindatacleansing is executed';
+go
+exec usp_insertdata;
+print 'usp_insertdata is executed'
