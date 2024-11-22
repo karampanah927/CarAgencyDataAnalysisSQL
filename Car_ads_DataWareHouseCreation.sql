@@ -39,7 +39,7 @@ create table DimAd (
 -----------------------------
 create table DimDate (
     date_key int identity(1,1) primary key,
-    dt date not null,
+    full_date date not null,
     year int,
     quarter int,
     month int,
@@ -71,6 +71,6 @@ create table FactMarketing (
     stock_days_rank_over_brand bigint,
     constraint fk_FactMarketing_DimAd foreign key (ad_key) references DimAd (ad_key),
     constraint fk_FactMarketing_DimGeography foreign key (geo_key) references DimGeography (first_zip_digit),
-    constraint fk_FactMarketing_CreatedDate foreign key (created_date) references DimDate (dt),
-    constraint fk_FactMarketing_DeletedDate foreign key (deleted_date) references DimDate (dt)
+    constraint fk_FactMarketing_CreatedDate foreign key (created_date) references DimDate (full_date),
+    constraint fk_FactMarketing_DeletedDate foreign key (deleted_date) references DimDate (full_date)
 );
