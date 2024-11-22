@@ -1,63 +1,66 @@
-create procedure MainDataCleansing as 
+create procedure maindatacleansing as
 begin
-EXEC data_cleansing2;
-PRINT 'sp_name is executed';
+exec data_cleansing2;
+print 'data_cleansing2 is executed';
 
-EXEC data_cleansing3;
-PRINT 'sp_name is executed';
+exec data_cleansing3;
+print 'data_cleansing3 is executed';
 
-EXEC data_cleansing4;
-PRINT 'sp_name is executed';
+exec data_cleansing4;
+print 'data_cleansing4 is executed';
 
-EXEC data_cleansing5;
-PRINT 'sp_name is executed';
+exec data_cleansing5;
+print 'data_cleansing5 is executed';
 
-EXEC data_cleansing6;
-PRINT 'sp_name is executed';
+exec data_cleansing6;
+print 'data_cleansing6 is executed';
 
-EXEC data_cleansing7;
-PRINT 'sp_name is executed';
+exec data_cleansing7;
+print 'data_cleansing7 is executed';
 
-EXEC data_cleansing8;
-PRINT 'sp_name is executed';
+exec data_cleansing8;
+print 'data_cleansing8 is executed';
 
-EXEC Data_Cleansing9;
-PRINT 'sp_name is executed';
+exec data_cleansing9;
+print 'data_cleansing9 is executed';
 
-EXEC Data_Cleansing10;
-PRINT 'sp_name is executed';
+exec data_cleansing10;
+print 'data_cleansing10 is executed';
 
-EXEC Data_Cleansing11;
-PRINT 'sp_name is executed';
+exec data_cleansing11;
+print 'data_cleansing11 is executed';
 
-EXEC Data_Cleansing12;
-PRINT 'sp_name is executed';
+exec data_cleansing12;
+print 'data_cleansing12 is executed';
 
-EXEC Data_Cleansing13;
-PRINT 'sp_name is executed';
+exec data_cleansing13;
+print 'data_cleansing13 is executed';
 
-EXEC Data_Cleansing14;
-PRINT 'sp_name is executed';
+exec data_cleansing14;
+print 'data_cleansing14 is executed';
 
-EXEC Data_Cleansing15;
-PRINT 'sp_name is executed';
+exec data_cleansing15;
+print 'data_cleansing15 is executed';
 
-EXEC Data_Cleansing16;
-PRINT 'sp_name is executed';
+exec data_cleansing16;
+print 'data_cleansing16 is executed';
 
-EXEC Data_Cleansing17;
-PRINT 'sp_name is executed';
+exec data_cleansing17;
+print 'data_cleansing17 is executed';
 
-EXEC Data_Cleansing18;
-PRINT 'sp_name is executed';
+exec data_cleansing18;
+print 'data_cleansing18 is executed';
 
-EXEC Data_Cleansing19;
-PRINT 'sp_name is executed';
+exec data_cleansing19;
+print 'data_cleansing19 is executed';
 
-EXEC Data_Cleansing21;
-PRINT 'sp_name is executed';
+exec data_cleansing21;
+print 'data_cleansing21 is executed';
 
-EXEC Data_Cleansing22;
-PRINT 'sp_name is executed';
+exec data_cleansing22;
+print 'data_cleansing22 is executed';
+
+exec usp_insertdata;
+print 'usp_insertdata is executed'
 
 end
