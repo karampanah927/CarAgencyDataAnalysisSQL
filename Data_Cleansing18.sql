@@ -1,7 +1,7 @@
 /*alter table car_ads
 add click_rank_over_region int*/
 	go
----------------------- clicks rank over Region -------------------------------------
+---------------------- clicks rank over Region ---------------------------------------
 --select * from car_ads
 
 
