@@ -1,7 +1,7 @@
 /*alter table car_ads
 add stock_days_rank_over_brand int;*/
 	go
----------------- stock days over car_brand ---------------------------------------
+---------------- stock days over car_brand -----------------------------------------
 --select * from car_ads
 
 
