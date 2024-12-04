@@ -1,7 +1,7 @@
 /*alter table car_ads
 add MoM_ctr_change decimal(10,2)*/
 	go
------------------------ CTR MOM Percentage -------------------------------------
+----------------------- CTR MOM Percentage --------------------------------------
 -- use carsAdsdb;
 /*alter table car_ads
 add MoM_ctr_change decimal(10,2)
