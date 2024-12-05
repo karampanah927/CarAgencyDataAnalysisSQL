@@ -2,7 +2,7 @@
 alter table car_ads add sale_velocity decimal(9,3);
 */
 	go
-	---------------- PRICE RANGE---------------------
+	---------------- PRICE RANGE-------------------
 	/*****  Price Class  *****/
 -- Determine the sales velocity
 --based on stock_days and views using
