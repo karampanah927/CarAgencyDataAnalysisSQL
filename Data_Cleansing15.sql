@@ -3,7 +3,7 @@ alter table car_ads
 	add ctr_rank_over_category int
 */
 	go
---------------------- ctr rank over brand_category------------------------------
+------------------- ctr rank over brand_category------------------------------
 
 
 
